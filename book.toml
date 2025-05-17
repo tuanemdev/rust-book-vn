@@ -2,13 +2,18 @@
 # in `nostarch/book.toml`!
 
 [book]
-title = "The Rust Programming Language"
-authors = ["Steve Klabnik", "Carol Nichols", "Chris Krycho", "Contributions from the Rust Community"]
+title = "Ngôn ngữ lập trình Rust"
+authors = ["Tuan Em"]
+src = "src-vi"
+language = "vi"
+
+[output.html.fold]
+enable = true
 
 [output.html]
 additional-css = ["ferris.css", "theme/2018-edition.css", "theme/semantic-notes.css", "theme/listing.css"]
 additional-js = ["ferris.js"]
-git-repository-url = "https://github.com/rust-lang/book"
+git-repository-url = "https://github.com/tuanemdev/rust-book-vn"
 
 [output.html.search]
 use-boolean-and = true
